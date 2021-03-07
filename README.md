@@ -1,4 +1,7 @@
-# How to run
+# cypress_slim
+Attempt to make https://github.com/cypress-io/cypress-docker-images/tree/master/included small as possible
+Triggered by https://github.com/docker-slim/docker-slim/issues/134
+## How to run
 - docker-compose build
 - docker-compose up with_chrome
 - docker-compose up with_electron
