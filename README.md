@@ -1,7 +1,7 @@
 # cypress_slim
 Attempt to make https://github.com/cypress-io/cypress-docker-images/tree/master/included image small as possible with or without https://github.com/docker-slim/docker-slim
 
-Triggered by investigation of https://github.com/docker-slim/docker-slim/issues/134
+Triggered by investigation of https://github.com/docker-slim/docker-slim/issues/134 and https://github.com/iperdomo/cypress-docker-test#fixing-the-errors
 
 ## How to run
 - docker-compose build
