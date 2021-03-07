@@ -7,6 +7,12 @@ yarn-error.log*
 lerna-debug.log*
 .idea/
 .DS_Store
+cypress/videos/
+cypress/screenshots/
+slim.report.json
+docker-slim
+docker-slim-sensor
+.docker-slim-state/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

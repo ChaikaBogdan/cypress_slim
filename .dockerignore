@@ -10,4 +10,6 @@ README.md
 slim.report.json
 .idea/
 .DS_Store
+cypress/videos/
+cypress/screenshots/
 
