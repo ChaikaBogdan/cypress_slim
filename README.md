@@ -8,7 +8,7 @@ Triggered by investigation of https://github.com/docker-slim/docker-slim/issues/
 - `./docker-slim build --http-probe=false --include-shell --include-path /usr/bin --include-path /usr/local --include-path /root/.cache/Cypress --include-path /usr/lib --target cypress/included:6.6.0`
 - `docker run -it --volume=/var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket --entrypoint sh`
 ```diff
- - Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: Connection refused
+- Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: Connection refused
 ```
 ## How to run
 - docker-compose build
