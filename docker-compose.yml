@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  with_chrome:
+    container_name: cypress_slim_chrome
+    working_dir: /e2e
+    build:
+      context: .
+      dockerfile: dockerfile_chrome
+    volumes:
+      - .:/e2e
+    ipc: host
+    entrypoint: ['sh', './entrypoint.sh']
+    command: ['cypress', 'run', '--headless' ,'--browser', 'chrome',]
+
+  with_electron:
+    container_name: cypress_slim_electron
+    working_dir: /e2e
+    build:
+      context: .
+      dockerfile: dockerfile_electron
+    volumes:
+      - .:/e2e
+    ipc: host
+    entrypoint: ['sh', './entrypoint.sh']
+    command: [ 'cypress', 'run', '--headless', ]

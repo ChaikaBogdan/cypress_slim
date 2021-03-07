@@ -1,0 +1,13 @@
+docker-slim
+docker-slim-sensor
+node_modules
+cypress
+cypress.json
+package-lock.json
+package.json
+README.md
+.docker-slim-state
+slim.report.json
+.idea/
+.DS_Store
+
